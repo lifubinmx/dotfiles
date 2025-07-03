@@ -27,6 +27,7 @@
 !.config/rofi/**
 !.gitignore
 !.gitignore_global
+!.vim
 !.vim/vimrc
 !.xinitrc
 !.zshrc
