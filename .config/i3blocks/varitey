@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+icon=" "
+
+case $BLOCK_BUTTON in
+    1) variety -p
+    ;;
+    2) variety -f
+    ;;
+    3) variety -n
+  esac
+
+echo "<span color='#999'>$icon</span>"
