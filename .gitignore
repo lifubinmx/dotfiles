@@ -25,6 +25,8 @@
 !.config/ranger/**
 !.config/rofi
 !.config/rofi/**
+!.config/variety
+!.config/variety/variety.conf
 !.gitignore
 !.gitignore_global
 !.vim

@@ -20,20 +20,20 @@ align=center
 #command=echo "Hello, $USER!"
 #interval=once
 
-[weather]
-command=curl -m1 wttr.in?format=2 2>/dev/null
-interval=1800
-label=
+#[weather]
+#command=curl -m1 wttr.in?format=2 2>/dev/null
+#interval=1800
+#label=
+#
+#[publicip]
+#command=curl ifconfig.me | xargs
+#interval=600
+#label= 
 
-[publicip]
-command=curl ifconfig.me | xargs
-interval=600
-label= 
-
-[privateip]
-command=hostname -i
-interval=600
-label=󰌘 
+#[privateip]
+#command=hostname -i
+#interval=600
+#label=󰌘 
 
 [cpu]
 command=top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1"%"}'
