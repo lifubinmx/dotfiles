@@ -32,3 +32,5 @@
 !.xinitrc
 !.zshrc
 !.packages
+!.bin
+!.bin/i3lockr

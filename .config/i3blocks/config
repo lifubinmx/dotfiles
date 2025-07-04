@@ -28,7 +28,7 @@ label=
 [publicip]
 command=curl ifconfig.me | xargs
 interval=600
-label= 
+label=󰖈 
 
 [privateip]
 command=hostname -i
