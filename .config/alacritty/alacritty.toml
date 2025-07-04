@@ -1,2 +1,12 @@
 [font]
-size = 16
+size = 18
+
+[[mouse.bindings]]
+action = "Paste"
+mouse = "Right"
+
+[mouse]
+hide_when_typing = true
+
+[selection]
+save_to_clipboard = true
