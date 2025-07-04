@@ -36,9 +36,10 @@ interval=600
 label=󰌘 
 
 [cpu]
-command=top -bn1 | grep "Cpu(s)" | sed "s/.*, *\([0-9.]*\)%* id.*/\1/" | awk '{print 100 - $1"%"}'
-min_width=120
-max_width=120
+command=$HOME/.config/i3blocks/cpu
+min_width=130
+max_width=130
+align=left
 interval=1
 label= 
 
