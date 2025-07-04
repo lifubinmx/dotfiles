@@ -3,9 +3,7 @@ alacritty
 archlinuxcn-keyring
 base
 base-devel
-broadcom-wl-dkms
 cmatrix
-dkms
 dmenu
 dunst
 efibootmgr
@@ -22,7 +20,6 @@ flameshot
 freerdp
 freerdp2
 fzf
-google-chrome
 grub
 gst-plugin-pipewire
 gtk-engine-murrine
@@ -44,7 +41,6 @@ linux-firmware
 linux-headers
 linux-lts
 linux-zen
-linuxqq-appimage
 lolcat
 lsd
 lsof
@@ -78,9 +74,7 @@ unzip
 upower
 variety
 vim
-w3m
 wget
-wireless_tools
 wireplumber
 wqy-microhei
 wqy-zenhei
