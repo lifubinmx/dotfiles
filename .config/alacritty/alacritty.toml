@@ -1,3 +1,6 @@
+[window]
+opacity = 0.8
+
 [font]
 size = 18
 
@@ -10,3 +13,6 @@ hide_when_typing = true
 
 [selection]
 save_to_clipboard = true
+
+[cursor]
+style = {shape = "Underline", blinking = "On"}

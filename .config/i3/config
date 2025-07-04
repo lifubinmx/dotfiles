@@ -12,6 +12,9 @@ font pango:"Hack Nerd Font" 20
 #exec_always xrandr --output Virtual-1 --mode 1920x1080
 exec_always variety
 
+# Start picom
+exec --no-startup-id picom -b
+
 # Start fcitx
 exec --no-startup-id fcitx5 -d
 
