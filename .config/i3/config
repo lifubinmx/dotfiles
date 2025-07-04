@@ -210,9 +210,10 @@ smart_borders on
 bar {
   status_command i3blocks
 	position top
-	#height 36
-	font pango: Hack Nerd Font 15
+	height 60
+	font pango: Hack Nerd Font 14
 	tray_output eDP-1
+  tray_padding 8
 	colors {
 	  background #222222
 	  statusline #FFFFFF
