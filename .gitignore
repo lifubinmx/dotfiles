@@ -7,8 +7,6 @@
 !.config/alacritty/**
 !.config/dunst
 !.config/dunst/**
-!.config/fcitx
-!.config/fcitx/**
 !.config/fcitx5
 !.config/fcitx5/**
 !.config/fish
