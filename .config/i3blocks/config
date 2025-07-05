@@ -41,6 +41,11 @@ command=hostname -i
 interval=600
 label=󰌘 
 
+[cpufan]
+command=$HOME/.config/i3blocks/cpufan
+interval=1
+label=󰈐 
+
 [cpu]
 command=$HOME/.config/i3blocks/cpu
 min_width=130

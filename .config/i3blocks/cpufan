@@ -1,0 +1,16 @@
+#!/bin/bash
+
+rpm=$(sensors | awk '/Right Side/ {print $4}')
+
+
+if [ $(echo "scale=1; $rpm > 2000" | bc) -eq 1 ]; then
+  color="#ff0000"
+elif [ $(echo "scale=1; $rpm > 1500" | bc) -eq 1 ]; then
+  color="#ffff00"
+else
+  color="#00ff00"
+fi
+
+echo "$rpm"
+echo ""
+echo $color
