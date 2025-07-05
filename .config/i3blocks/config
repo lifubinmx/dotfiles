@@ -19,6 +19,12 @@ align=center
 #[greetings]
 #command=echo "Hello, $USER!"
 #interval=once
+#
+
+[archicon]
+command=echo "󰣇 "
+color=#009999
+interval=once
 
 [weather]
 command=curl -m1 wttr.in?format=2 2>/dev/null
