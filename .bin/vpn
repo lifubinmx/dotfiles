@@ -1,0 +1,17 @@
+#!/bin/bash
+
+case $1 in
+
+	start)
+	sudo openvpn --daemon --cd ~/Documents/openvpn/ --config ben.ovpn && echo "Success!" || echo "Faild!"
+	;;
+
+	stop)
+	sudo pkill openvpn && echo "Success!" || echo "Faild!"
+	;;
+
+	*)
+	echo "$0 <start | stop>"
+	exit 1
+
+esac

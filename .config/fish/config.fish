@@ -6,4 +6,5 @@ export GTK_IM_MODULE=fcitx5
 export QT_IM_MODULE=fcitx5
 export XMODIFIERS="@im=fcitx5"
 
-set -g -x RANGER_LOAD_DEFAULT_RC FALSE
+set -gx PATH $PATH ~/.bin
+set -gxx RANGER_LOAD_DEFAULT_RC FALSE

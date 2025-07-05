@@ -76,7 +76,7 @@ bindsym $mod+c exec google-chrome-stable
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -p "run:" -b -sf yellow
+bindsym $mod+d exec --no-startup-id dmenu_run -p "run:" -b -sb "#0088cc" -sf "#fff" -nf "#fff"
 
 # start rofi
 #bindsym $mod+x exec rofi -show drun -theme glue_pro_blue
