@@ -5,6 +5,8 @@
 !.config
 !.config/alacritty
 !.config/alacritty/**
+!.config/kitty
+!.config/kitty/**
 !.config/dunst
 !.config/dunst/**
 !.config/fcitx5
