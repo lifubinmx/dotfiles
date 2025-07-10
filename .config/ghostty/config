@@ -1,0 +1,10 @@
+font-family = "Source Code Pro"
+font-size = 18
+
+mouse-hide-while-typing = true
+
+background-opacity = 0.8
+
+window-decoration = true
+
+theme = dracula
