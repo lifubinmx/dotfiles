@@ -21,6 +21,8 @@ flameshot
 freerdp
 freerdp2
 fzf
+ghostty
+gnome-themes-extra
 grub
 gst-plugin-pipewire
 gtk-engine-murrine
@@ -33,6 +35,7 @@ i3status
 inetutils
 intel-ucode
 iwd
+kitty
 libnotify
 libpulse
 light-git
@@ -125,4 +128,5 @@ xrdp
 xss-lock
 xterm
 yay
+yazi
 zip
