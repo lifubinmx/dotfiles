@@ -1,12 +1,12 @@
 # This is Git's per-user configuration file.
 [user]
 	name = LiFubin
-	email = fubin.li@i-sprint.net
+	email = lifubinmx@qq.com
 [core]
 	editor = vim
 	#支持中文显示
 	quotepath = false
-	excludesfile = /Users/lifubin/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	pager = 
 [alias]
 	cl = clone
