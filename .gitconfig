@@ -1,0 +1,33 @@
+# This is Git's per-user configuration file.
+[user]
+	name = LiFubin
+	email = fubin.li@i-sprint.net
+[core]
+	editor = vim
+	#支持中文显示
+	quotepath = false
+	excludesfile = /Users/lifubin/.gitignore_global
+	pager = 
+[alias]
+	cl = clone
+	ci = commit
+	st = status
+	sw = switch
+	co = checkout
+	su = summary
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+#[credential]
+    #helper = store --file ~/.git-credentials
+    #helper = cache --timeout 900
+[init]
+	defaultBranch = master
+[https "https://github.com/"]
+	proxy = http://192.168.100.100:8080
+#[https]
+#	proxy = socks5://localhost:8086
+#[commit]
+#	template = /Users/lifubin/.gitmessage.txt

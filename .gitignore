@@ -29,6 +29,7 @@
 !.config/rofi/**
 !.config/variety
 !.config/variety/variety.conf
+!.gitconfig
 !.gitignore
 !.gitignore_global
 !.vim
@@ -38,3 +39,5 @@
 !.packages
 !.bin
 !.bin/**
+!.pacman.conf
+!.40-libinput.conf

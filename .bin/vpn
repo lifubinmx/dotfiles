@@ -3,7 +3,7 @@
 case $1 in
 
 	start)
-	sudo openvpn --daemon --cd ~/Documents/openvpn/ --config ben.ovpn && echo "Success!" || echo "Faild!"
+	sudo openvpn --daemon --cd ~/.config/openvpn/ --config ben-zhoffice.ovpn && echo "Success!" || echo "Faild!"
 	;;
 
 	stop)

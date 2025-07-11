@@ -2,7 +2,7 @@
 #
 # Global properties
 separator=false
-separator_block_width=10
+separator_block_width=2
 markup=pango
 border_top=0
 border_left=0
@@ -22,46 +22,60 @@ align=center
 #
 
 [archicon]
-command=echo "󰣇 "
+command=echo "󰣇"
+min_width=40
 color=#009999
-interval=once
+interval=3600
 
 [weather]
 command=curl -m1 wttr.in?format=2 2>/dev/null
+min_width=320
 interval=1800
+background=#666666
 label=
 
-[publicip]
-command=curl ifconfig.me | xargs
+[wan]
+command=curl -4 ifconfig.me | xargs
+min_width=280
 interval=600
+background=#666666
 label=󰖈 
 
-[privateip]
+[lan]
 command=hostname -i
+min_width=210
 interval=600
+background=#666666
 label=󰌘 
 
 [cpufan]
 command=$HOME/.config/i3blocks/cpufan
+min_width=130
+max_width=130
 interval=1
+background=#666666
 label=󰈐 
 
 [cpu]
 command=$HOME/.config/i3blocks/cpu
 min_width=130
 max_width=130
-align=left
+align=center
 interval=1
+background=#666666
 label= 
 
 [memory]
 command=free -h | awk '/^Mem/ {print $3"/"$2}' | sed 's/i//g'
-min_width=120
-max_width=120
-align=center
+min_width=210
+max_width=210
 interval=1
+background=#666666
 label= 
 
 [time]
 command=date +%H:%M
+min_width=90
+max_width=90
 interval=1
+background=#666666
