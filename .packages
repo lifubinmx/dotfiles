@@ -1,5 +1,6 @@
 acpi
 archlinuxcn-keyring
+adobe-source-code-pro-fonts
 base
 base-devel
 bc
@@ -58,6 +59,7 @@ networkmanager
 noto-fonts
 noto-fonts-cjk
 openvpn
+openfortivpn
 picom
 pipewire
 pipewire-alsa
