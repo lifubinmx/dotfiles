@@ -20,6 +20,10 @@ align=center
 #command=echo "Hello, $USER!"
 #interval=once
 #
+[vpn]
+command=$HOME/.config/i3blocks/vpn
+interval=1
+label=󱠾 
 
 [archicon]
 command=echo "󰣇"
