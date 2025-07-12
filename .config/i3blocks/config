@@ -29,7 +29,7 @@ interval=3600
 
 [weather]
 command=curl -m1 wttr.in?format=2 2>/dev/null
-min_width=320
+min_width=330
 interval=1800
 background=#666666
 label=
@@ -42,7 +42,7 @@ background=#666666
 label=󰖈 
 
 [lan]
-command=hostname -i
+command=hostname -i | awk '{print $1}'
 min_width=210
 interval=600
 background=#666666

@@ -9,8 +9,10 @@ set $mod Mod4
 font pango:"Hack Nerd Font" 20
 
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-#exec_always xrandr --output Virtual-1 --mode 1920x1080
+exec xrandr --output HDMI2 --same-as eDP1 --mode 1920x1080
 exec variety
+bindsym $mod+p exec variety -p
+bindsym $mod+n exec variety -n
 
 # Start picom
 exec --no-startup-id picom -b
@@ -213,7 +215,7 @@ bar {
 	position top
 	height 60
 	font pango: Hack Nerd Font 14
-	tray_output eDP-1
+	tray_output eDP1
   tray_padding 8
 	colors {
 	  background #222222
