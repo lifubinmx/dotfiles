@@ -27,9 +27,8 @@ interval=1
 label=󱠾 
 
 [update]
-command=test -f /tmp/.config && cat /tmp/.config || echo
+command=$HOME/.config/i3blocks/update
 min_width=40
-color=#009999
 interval=3600
 label=󰣇 
 

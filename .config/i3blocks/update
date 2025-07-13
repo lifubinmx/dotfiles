@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -f /tmp/.update ]; then
+  uc=$(cat /tmp/.update)
+  color="#009999"
+else
+  uc=""
+  color="#222222"
+fi
+
+echo "$uc"
+echo
+echo "$color"
