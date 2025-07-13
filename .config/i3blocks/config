@@ -20,16 +20,18 @@ align=center
 #command=echo "Hello, $USER!"
 #interval=once
 #
+
 [vpn]
 command=$HOME/.config/i3blocks/vpn
 interval=1
 label=󱠾 
 
-[archicon]
-command=echo "󰣇"
+[update]
+command=test -f /tmp/.update && cat /tmp/.update || echo
 min_width=40
 color=#009999
 interval=3600
+label=󰣇 
 
 [weather]
 command=curl -m1 wttr.in?format=2 2>/dev/null

@@ -5,6 +5,7 @@ base
 base-devel
 bc
 cmatrix
+cronie
 dmenu
 dunst
 efibootmgr
