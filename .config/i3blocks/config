@@ -27,7 +27,7 @@ interval=1
 label=󱠾 
 
 [update]
-command=test -f /tmp/.update && cat /tmp/.update || echo
+command=test -f /tmp/.config && cat /tmp/.config || echo
 min_width=40
 color=#009999
 interval=3600
