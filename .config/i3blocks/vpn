@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ip link | grep -Eq 'tun' && color='#00ff00' || color='#222222'
+ip link | grep -Eq 'tun|ppp' && color='#00ff00' || color='#222222'
 
 echo
 echo
