@@ -39,8 +39,5 @@
 !.vim/vimrc
 !.xinitrc
 !.zshrc
-!.packages
 !.bin
 !.bin/**
-!.pacman.conf
-!.40-libinput.conf
