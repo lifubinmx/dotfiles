@@ -3,6 +3,9 @@
 !.bash_profile
 !.bashrc
 !.config
+!.config/40-libinput.conf
+!.config/packages
+!.config/pacman.conf
 !.config/alacritty
 !.config/alacritty/**
 !.config/kitty
