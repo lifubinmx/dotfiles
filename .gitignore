@@ -6,7 +6,7 @@
 !.config/40-libinput.conf
 !.config/packages
 !.config/pacman.conf
-!.config/.config/ZeroOmegaOptions-2025-07-14T01_33_38.376Z.bak
+!.config/ZeroOmegaOptions-2025-07-14T01_33_38.376Z.bak
 !.config/alacritty
 !.config/alacritty/**
 !.config/kitty
